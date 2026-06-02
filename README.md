@@ -13,7 +13,7 @@
 Clonar repositorio:
 
 ```bash
-git clone https://github.com/TU_USUARIO/prueba-tecnica-totalplay.git
+git clone https://github.com/Pammcito/prueba-tecnica-totalplay.git
 ```
 
 ## Ejecución local
