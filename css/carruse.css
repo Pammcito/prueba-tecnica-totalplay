@@ -1,0 +1,314 @@
+.carousel-wrapper {
+    position: relative;
+}
+
+#carrusel-x {
+    border-bottom: solid 1px var(--gray3) !important;
+    overflow: hidden;
+}
+
+
+#carrusel-x img {
+    margin: auto;
+}
+
+.bullets-c {
+    display: flex;
+}
+
+
+#indicadores-carrusel {
+    background-color: var(--wwhite);
+    width: fit-content !important;
+    height: 48px;
+    padding: 15px 50px;
+    box-shadow: 0 4px 10px #00000017;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(-50px / 2) !important;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    z-index: 1;
+}
+
+.bloquecolor {
+    padding: 30px;
+}
+
+#indicadores-carrusel li {
+    background-color: var(--gray3);
+    height: 14px;
+    width: 14px;
+    margin: 0;
+}
+
+
+#indicadores-carrusel li.active {
+    background-color: var(--gray2);
+    height: 14px;
+    width: 14px;
+    margin: 0;
+}
+
+div#carrusel-x img {
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+#carrusel-x .bloquecolor {
+    text-align: center;
+}
+
+.banner-home-pagination .swiper-pagination-bullet-active {
+    background: var(--bback);
+}
+
+.plan-card {
+    background: var(--ggrey2);
+    border-radius: 22px;
+    color: var(--bback2);
+}
+
+.plan-card-content {
+    padding: 17px;
+}
+
+.card-img {
+    background: #fff;
+    background: linear-gradient(242deg, rgba(228, 255, 228, 1) 25%, rgba(255, 255, 255, 1) 98%);
+    border-radius: 22px 22px 0 0;
+    padding-block: 17px;
+    text-align: center;
+}
+
+.card-img img {
+    text-align: center;
+    margin: auto;
+}
+
+.plans-swiper {
+    overflow: hidden;
+}
+
+.plan-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.card-img h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.card-img p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+}
+
+.apple-tv {
+    background: var(--bback);
+    padding: 15px 8px;
+    width: fit-content;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    border-radius: 12px;
+    font-size: 13px;
+}
+
+.apple-tv p {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+ul.plan-card-text {
+    padding-block: 15px;
+}
+
+ul.plan-card-text li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+ul.plan-card-text li span {
+    font-size: 14px;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.price span {
+    font-weight: 700;
+}
+
+.swiper-pagination-paquetes {
+    border: none;
+    background-color: var(--wwhite);
+    width: fit-content !important;
+    box-shadow: 0 4px 10px #00000017;
+    border-radius: 50px;
+    margin: auto;
+    padding: 0 1.2rem;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.swiper-pagination-paquetes .swiper-pagination-bullet-active {
+    background: var(--bback);
+}
+
+@media (max-width: 768px) {
+
+    #indicadores-carrusel {
+        height: 23px;
+        bottom: calc(-25px / 2);
+    }
+
+    img.img-responsive.responsive1920 {
+        height: 617px !important;
+    }
+
+    #indicadores-carrusel li {
+        height: 10px;
+        width: 10px;
+    }
+
+    #indicadores-carrusel li.active {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media (max-width: 699px) {
+
+    #carrusel-x img {
+        margin: auto;
+        max-width: 100% !important;
+        height: auto;
+    }
+
+    #indicadores-carrusel {
+        padding: 12px 46px;
+
+    }
+
+    div #bloque-chat {
+        margin-left: 0px;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 451px) {
+    img.img-responsive.responsive1920 {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 376px) {
+    img.img-responsive.responsive1920 {
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .banner-home-pagination {
+        height: 25px;
+        bottom: calc(-25px / 2);
+        padding: 0 32px;
+    }
+
+    .banner-home-pagination .swiper-pagination-bullet {
+        height: 8px;
+        width: 8px;
+    }
+}
+
+.banner-home-pagination {
+    border: none;
+    background-color: var(--wwhite);
+    width: fit-content !important;
+    height: 30px;
+    box-shadow: 0 4px 10px #00000017;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(-50px / 4) !important;
+    margin: auto;
+    padding: 0 1.2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-home-pagination .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+}
+
+.banner-home-pagination .swiper-pagination-bullet:hover {
+    background-color: var(--);
+    opacity: 1.0;
+}
+
+@media only screen and (max-width:680px) {
+    .banner-home-pagination {
+        bottom: -18px !important;
+        height: 27px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .plans-swiper {
+        overflow: visible;
+    }
+
+    .plans-swiper .swiper-wrapper {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+
+        transform: none !important;
+
+    }
+
+    .plans-swiper .swiper-slide {
+
+        width: auto !important;
+        margin-right: 0 !important;
+
+    }
+
+    .plans-swiper .swiper-pagination {
+
+        display: none;
+
+    }
+
+
+}

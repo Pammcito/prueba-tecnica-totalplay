@@ -1,0 +1,63 @@
+:root {
+    --wwhite: #FFFFFF;
+    --bback: #000000;
+     --bback2: #17171F;
+    --bblue1:  #1689FF;
+    --ppurple:  #6E26FF;
+    --ggrey: #585858;
+    --ggrey1: #C9CDD4;
+    --ggrey2: #F5F5F5;
+
+     --fs-topbar: clamp(14px, 1.5vw, 20px);
+
+
+}
+
+h1.h1{
+    font-size: 52px;
+}
+h2.h2{
+   font-size: 52px; 
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.bbtn-principal{
+    background: var(--bblue1);
+ border:1px solid var(--bblue1);
+    border-radius: 27px;
+    padding: 11px 20px;
+    color:var(--wwhite);
+    font-weight: 600;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.bbtn-principal:hover, .bbtn-principal:active, .bbtn-principal:focus{
+   background: var(--wwhite) !important;
+    border-radius: 27px;
+    padding: 11px 20px;
+    color:var(--bblue1) !important;
+    font-weight: 600;
+    font-size: 20px;
+    cursor:pointer;
+    border:1px solid var(--bblue1) !important;
+
+}
