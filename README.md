@@ -29,5 +29,4 @@ No requiere proceso de compilación.
 ## Deploy
 
 Disponible en:
-
-(Pegar aquí la URL de GitHub Pages cuando la generes)
+https://pammcito.github.io/prueba-tecnica-totalplay/ 
